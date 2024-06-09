@@ -1,5 +1,6 @@
 {
   "name": "saturn-clock",
+  "main": "dist-electron/main.js",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -12,6 +13,7 @@
     "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -32,6 +34,5 @@
     "vite": "^4.4.9",
     "vite-plugin-electron": "^0.14.0",
     "vite-plugin-electron-renderer": "^0.14.5"
-  },
-  "main": "dist-electron/main.js"
+  }
 }
